@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/a89c6afcae.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailwind and daisyUI cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -33,9 +38,40 @@
   </head>
   <body>
     <!-- header section -->
-    <header></header>
+    <header class="container mx-auto">
+      <!-- banner hero -->
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-bold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+          <div>
+            <img src="images/banner.png" class="max-w-sm" />
+            <!-- ratings badge -->
+            <div
+              class="-mt-20 flex items-center gap-3 drop-shadow-lg bg-white p-5 w-64"
+            >
+              <i class="text-4xl text-amber-400 fa-solid fa-star"></i>
+              <div>
+                <h3 class="text-3xl">5.00</h3>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- main section -->
-    <main></main>
+    <main class="container mx-auto"></main>
     <!-- footer section -->
     <footer></footer>
   </body>
